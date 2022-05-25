@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Lab Assignment 4
+  sections:
+  - heading: Lab Assignment 4
+    text: Lab Assignment 4
+    linkText: Click here for instructions
+    url: https://cs-2053-winter-2021.github.io/en_CA/#!pages/assignments/cs2053-w2021-lab-assignment-4.md
+  loadedLayout: 1

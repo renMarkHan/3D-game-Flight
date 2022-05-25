@@ -1,13 +1,10 @@
-# Lab Assignment #4: 
-In this assignment you will practice 3D game development.
-Remember, if you can, remove the Builds lines from your .gitignore and hand in a windows 10 build to help the marker.
-If your internet can't handle such a large upload, don't worry about it.
+# 3D game Flight: 
 
 ## Preliminary Steps
-In this assignment you will follow the steps below to first create a base system. We will then make some changes to it, based on the items listed in the Requirements section. The final lab project can be viewed here: [Lab 4 - CS2053](https://www.youtube.com/watch?v=Vddt4VShKNo).
+Follow the steps below to first create a base system. We will then make some changes to it, based on the items listed in the Requirements section. The final lab project can be viewed here: [Flight game](https://www.youtube.com/watch?v=Vddt4VShKNo).
 
 ### 1. Setting up game scene
-- Similar to the lab 1 tutorial, create a new 3D object “Plane”. Change its name to “Ground”. Change Ground to a desirable size (scaling it by 2 should work well). Do the following to change the color of Ground to whatever color you like:
+- Create a new 3D object “Plane”. Change its name to “Ground”. Change Ground to a desirable size (scaling it by 2 should work well). Do the following to change the color of Ground to whatever color you like:
     + Create a new material.
     + In the Inspector for the Material, click Base Map to select a color.
     + Drag the new material to Ground the object.
@@ -366,13 +363,3 @@ void OnTriggerExit(Collider c){
     }
 }
 ```
-
-### 6. Finish it all off
-- Most of the remaining code will be added to the GameController script
-- Add in Text elements (see Lab Assignment #1) for the obstacles remaining display and to display a message when the game ends.
-- Remember to add in an 'r' to restart the game and an 'esc' to quit.
-- Make sure that you meet all other game requirements!
-- Test and submit!
-
-## Submitting
-- Remember to Commit and Push your project in Github Desktop when you are ready to submit.
